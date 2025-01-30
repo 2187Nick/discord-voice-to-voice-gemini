@@ -84,6 +84,5 @@ http://discord.gg/vxKepZ6XNC
 
 - Uses Discord.py for bot functionality
 - Implements custom audio streaming for real-time voice processing
-- Integrates with Google Speech-to-Text API
 - Uses WebSocket connection to Gemini AI for real-time responses
 - Handles both synchronous and asynchronous operations for optimal performance
