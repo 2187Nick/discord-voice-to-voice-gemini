@@ -23,8 +23,8 @@ https://github.com/user-attachments/assets/a1fd75ce-15d4-4d5a-8fe2-55c9d43ff656
 
 1. Clone the repository:
 ```bash
-git clone [your-repository-url]
-cd [repository-name]
+git clone https://github.com/2187Nick/discord-voice-to-voice-gemini
+cd discord-voice-to-voice-gemini
 ```
 
 2. Install required packages:
