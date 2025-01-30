@@ -2,8 +2,12 @@
 
 Chat voice to voice live with Google's Gemini 2.0 AI with google search capabilities.
 
+
 ## Demo
-https://github.com/2187Nick/discord-voice-to-voice-gemini/raw/main/scarlett.mp4
+<video width="50%" controls>
+  <source src="https://github.com/2187Nick/discord-voice-to-voice-gemini/raw/main/scarlett.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 ## Features
