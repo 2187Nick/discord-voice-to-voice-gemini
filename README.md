@@ -6,12 +6,6 @@ Chat voice to voice live with Google's Gemini 2.0 AI with google search capabili
 ## Demo
 https://github.com/user-attachments/assets/a1fd75ce-15d4-4d5a-8fe2-55c9d43ff656
 
-
-## Features
-
-- Real-time audio streaming
-- Support for continuous conversations
-
 ## Prerequisites
 
 - Python 3.8 or higher
@@ -69,14 +63,22 @@ python main.py
 - `/chat` - Initiates a voice chat session with the bot
 - `/stop` - Stops the current voice chat session
 
+## Support
+https://x.com/2187Nick
+
+http://discord.gg/vxKepZ6XNC
+
+
 ## Project Structure
 
 ```
-├── main.py          # Bot initialization and command handling
-├── record.py        # Audio processing and speech-to-text conversion
-├── stream.py        # Custom audio streaming implementation
-└── gemini.py        # Gemini AI WebSocket client integration
+├── main.py # Bot initialization and command handling
+└── src/ 
+    ├── record.py # Audio processing and speech-to-text conversion 
+    ├── stream.py # Custom audio streaming implementation 
+    └── gemini.py # Gemini AI WebSocket client integration
 ```
+
 
 ## Technical Details
 
