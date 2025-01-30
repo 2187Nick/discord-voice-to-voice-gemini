@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/a1fd75ce-15d4-4d5a-8fe2-55c9d43ff656
 
 - Python 3.8 or higher
 - Discord Bot Token
-- GEMINI API Key
+- Free GEMINI API Key: https://aistudio.google.com/
 - Discord Server with voice channels enabled
 
 ## Installation
