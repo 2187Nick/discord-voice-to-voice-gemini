@@ -1,13 +1,10 @@
-# Gemini Discord Bot
+# Real-time voice to voice Gemini discord chat bot
 
 Chat voice to voice live with Google's Gemini 2.0 AI with google search capabilities.
 
 
 ## Demo
-<video width="50%" controls>
-  <source src="https://github.com/2187Nick/discord-voice-to-voice-gemini/raw/main/scarlett.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/a1fd75ce-15d4-4d5a-8fe2-55c9d43ff656
 
 
 ## Features
