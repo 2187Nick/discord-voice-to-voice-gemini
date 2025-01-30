@@ -1,0 +1,5 @@
+discord.py[voice]
+discord-ext-voice-recv
+python-dotenv
+websockets
+SpeechRecognition
