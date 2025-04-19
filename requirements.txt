@@ -1,5 +1,5 @@
-discord.py[voice]
-discord-ext-voice-recv
-python-dotenv
-websockets
-SpeechRecognition
+discord.py[voice]==2.4.0
+discord-ext-voice-recv==0.4.2a145
+python-dotenv==1.0.1
+websockets==14.2
+SpeechRecognition==3.14.1
