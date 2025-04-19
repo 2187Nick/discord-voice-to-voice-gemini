@@ -40,11 +40,16 @@ class AudioProcessor(voice_recv.AudioSink):
     def wants_opus(self) -> bool:
         return False
 
-    def write(self, user: Optional[discord.User], data: voice_recv.VoiceData) -> None:
+    def write(self, user, audio_data):
         """Accumulate audio data only when recording is active."""
-        if self.recording_active and data.pcm:
+        # Store SSRCs in a dictionary to track users
+        if hasattr(audio_data, 'ssrc') and audio_data.ssrc not in self.known_ssrcs:
+            self.known_ssrcs.add(audio_data.ssrc)
+            print(f"Registered new SSRC: {audio_data.ssrc} from user {user}")
+            
+        if self.recording_active and audio_data.pcm:
             if user == self.target_user:
-                self.buffer += data.pcm
+                self.buffer += audio_data.pcm
 
     @voice_recv.AudioSink.listener()
     def on_voice_member_speaking_start(self, member: discord.Member) -> None:
